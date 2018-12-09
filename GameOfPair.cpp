@@ -117,3 +117,32 @@ printf("\n");
 			case 'n' : kotak_2[3][1]=1; break;
 			case 'o' : kotak_2[3][2]=1; break;
 			case 'p' : kotak_2[3][3]=1; break;
+			
+			default : printf(" error\t"); break;
+		}
+
+
+       switch (pil2)
+	   {
+			case 'a' : kotak_2[0][0]=1; break;
+			case 'b' : kotak_2[0][1]=1; break;
+			case 'c' : kotak_2[0][2]=1; break;
+			case 'd' : kotak_2[0][3]=1; break;
+			case 'e' : kotak_2[1][0]=1; break;
+			case 'f' : kotak_2[1][1]=1; break;
+			case 'g' : kotak_2[1][2]=1; break;
+			case 'h' : kotak_2[1][3]=1; break;
+			case 'i' : kotak_2[2][0]=1; break;
+			case 'j' : kotak_2[2][1]=1; break;
+			case 'k' : kotak_2[2][2]=1; break;
+			case 'l' : kotak_2[2][3]=1; break;
+	        case 'm' : kotak_2[3][0]=1; break;
+			case 'n' : kotak_2[3][1]=1; break;
+			case 'o' : kotak_2[3][2]=1; break;
+			case 'p' : kotak_2[3][3]=1; break;
+
+
+			default : printf(" error\t"); break;
+		}
+gets(alp);
+
