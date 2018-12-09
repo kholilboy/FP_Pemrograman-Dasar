@@ -71,3 +71,49 @@ int main(){
 		}	
 	}
 proses:
+	printf("		       Kholilul Rachman Nur Manab (17081010055)\n\t");
+	printf("   	    	FINAL PROJECT PEMROGRAMAN DASAR <GAME OF PAIR> \n\t");
+	printf("     	   Pembimbing:Pak Wahyu.S.J.Saputra, S.Kom.,M.Kom. \n\n\n");
+	printf("Kotak 1 \n");
+	
+ for(z=0;z<=3;z++){
+    for(x=0;x<=3;x++){
+
+
+         if(kotak_2[z][x]==1){printf("[ %i ]",kotak_1[z][x]);}
+        else if(kotak_2[z][x]==0){printf("[ ? ]");}
+    }printf("\n");
+}
+
+
+printf("Kotak 3 (Hint)");
+printf("\n[ a ][ b ][ c ][ d ]\n[ e ][ f ][ g ][ h ]\n[ i ][ j ][ k ][ l ]\n[ m ][ n ][ o ][ p ]\n\n");
+
+printf("Masukkan pilihan abjad-1 anda => (Hint)\n ");
+pil1 = getchar();
+
+char alp[213];
+gets(alp);
+
+printf("Masukkan pilihan abjad-2 anda => (Hint)\n ");
+pil2 = getchar();
+
+printf("\n");
+        switch (pil1)
+		{
+			case 'a' : kotak_2[0][0]=1; break;
+			case 'b' : kotak_2[0][1]=1; break;
+			case 'c' : kotak_2[0][2]=1; break;
+			case 'd' : kotak_2[0][3]=1; break;
+			case 'e' : kotak_2[1][0]=1; break;
+			case 'f' : kotak_2[1][1]=1; break;
+			case 'g' : kotak_2[1][2]=1; break;
+			case 'h' : kotak_2[1][3]=1; break;
+			case 'i' : kotak_2[2][0]=1; break;
+			case 'j' : kotak_2[2][1]=1; break;
+			case 'k' : kotak_2[2][2]=1; break;
+			case 'l' : kotak_2[2][3]=1; break;
+	        case 'm' : kotak_2[3][0]=1; break;
+			case 'n' : kotak_2[3][1]=1; break;
+			case 'o' : kotak_2[3][2]=1; break;
+			case 'p' : kotak_2[3][3]=1; break;
